@@ -27,111 +27,32 @@
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
 
-    <!-- Hardcode the colors so it doesn't change every time an Android System overlay changes -->
-    <color name="floatui_handle_color">#494949</color>
-    <color name="floatui_paint_color">#00000000</color>
-    <color name="floatui_dialog_background">#ca000000</color>
-    <color name="floatui_dialog_header_background">#66777777</color>
-    <color name="floatui_dialog_title_color">@android:color/white</color>
-    <color name="floatui_dialog_row_color">@android:color/white</color>
-    <color name="floatui_dialog_checkmark_color">@android:color/white</color>
-    <color name="floatui_dialog_button_color">@android:color/white</color>
-
-    <color name="bottom_sheet_dialog_background">@color/main_screen_card_background</color>
-
-    <color name="troubleshooting_card_line_color">@android:color/darker_gray</color>
-
-    <color name="priorities_drag_handle">@color/main_screen_card_theme_title</color>
-
-    <color name="wallpaper_card_text">@android:color/white</color>
-    <color name="wallpaper_card_text_shadow">@android:color/black</color>
-
-    <color name="tab_defaults_icon_tint">@android:color/white</color>
-
-    <color name="number_progress_bar_validation_error">#ff6600</color>
-    <color name="number_progress_bar_validation_success">#0c9300</color>
-
-    <color name="bootanimation_placeholder_tint">@android:color/white</color>
-    <color name="bootanimation_vm_text">@android:color/white</color>
-    <color name="bootanimation_spinner_background">@color/theme_information_background</color>
-    <color name="bootanimation_window_background">@android:color/black</color>
-
-    <color name="studio_placeholder_title">@android:color/black</color>
-
-    <color name="font_text">@android:color/white</color>
-    <color name="font_spinner_background">@color/theme_information_background</color>
-    <color name="font_window_background">@android:color/black</color>
-
-    <color name="sounds_text">@android:color/white</color>
-    <color name="sounds_placeholder_tint">@android:color/white</color>
-    <color name="sounds_play_pause_button_tint">@android:color/white</color>
-    <color name="sounds_spinner_background">@color/theme_information_background</color>
-    <color name="sounds_window_background">@android:color/black</color>
-
-    <color name="backup_button">@color/colorPrimary</color>
-    <color name="backup_button_text_color">@android:color/white</color>
     <color name="restore_button">@color/colorPrimary</color>
     <color name="restore_button_text_color">@android:color/white</color>
 
-    <color name="splashscreen_background">#fffafafa</color>
-    <color name="dialog_icon_color">#ffffffff</color>
-    <color name="dialog_text_color">#ffffffff</color>
-
     <color name="information_activity_dark_icon_mode">@android:color/black</color>
-    <color name="information_activity_dark_text_mode">@android:color/black</color>
     <color name="information_activity_light_icon_mode">@android:color/white</color>
-    <color name="information_activity_light_text_mode">@android:color/white</color>
-
-    <color name="showcase_activity_text">@android:color/white</color>
 
     <color name="main_screen_card_background">#fffafafa</color>
     <color name="main_screen_card_theme_title">#ff000000</color>
-    <color name="main_screen_card_theme_author">#d0000000</color>
 
     <color name="logcat_dialog_background">@android:color/black</color>
     <color name="logcat_dialog_icons">@android:color/white</color>
     <color name="logcat_dialog_text">#ff0000</color>
-    <color name="commit_dialog_text">#ffaa00</color>
-
-    <color name="wallpaper_bg_background">@android:color/black</color>
 
     <color name="theme_information_background">#ffeeeeee</color>
     <color name="theme_information_card_subtext">@android:color/darker_gray</color>
 
     <color name="settings_title_color">@color/colorAccent</color>
 
-    <color name="material_drawer_icon_color">#ff000000</color>
-    <color name="material_drawer_background">#ffffffff</color>
-    <color name="material_drawer_header_background">@color/colorPrimary</color>
-
-    <color name="compile_dialog_wave_color">#c0ffffff</color>
-
     <color name="overlay_installed_list_entry">#00c853</color>
     <color name="overlay_not_approved_list_entry">#ff0000</color>
     <color name="overlay_not_enabled_list_entry">#ef6c00</color>
     <color name="overlay_not_installed_list_entry">#4c000000</color>
     <color name="overlay_update_available">#d4b400</color>
-    <color name="overlay_update_not_needed">#008c3a</color>
-
-    <color name="window_bg_glass">#99000000</color>
-    <color name="cropper_bg_glass">#c8000000</color>
-
-    <color name="slide_1">#5e98ce</color>
-    <color name="slide_2">#fcb257</color>
-    <color name="slide_3">#ff8da1</color>
-    <color name="slide_4">#a9d67b</color>
-    <color name="slide_5">#c187ff</color>
-    <color name="slide_6">#f9da7c</color>
 
     <color name="fab_menu_background_card">#ffffffff</color>
     <color name="fab_menu_icon_color">@color/colorAccent</color>
     <color name="fab_menu_text_color">#de000000</color>
-    <color name="fab_menu_divider">#4a000000</color>
     <color name="fab_background_color">@color/colorAccent</color>
-
-    <color name="app_shortcut_icon_color">#ffffffff</color>
-    <color name="app_shortcut_icon_background_color">@color/colorPrimary</color>
-
-    <color name="main_launcher_background">#FAFAFA</color>
-
 </resources>
