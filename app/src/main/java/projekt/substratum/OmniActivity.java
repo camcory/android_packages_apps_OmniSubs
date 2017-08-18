@@ -88,12 +88,15 @@ public class OmniActivity extends SubstratumActivity {
         boolean enablePossible;
         boolean disablePossible;
         boolean compilePossible;
+        boolean canUpdateOverlays;
 
-        protected FabDialog(@NonNull Context context, boolean compilePossible, boolean enablePossible, boolean disablePossible) {
+        protected FabDialog(@NonNull Context context, boolean compilePossible, boolean enablePossible,
+                            boolean disablePossible, boolean canUpdateOverlays) {
             super(context);
             this.enablePossible = enablePossible;
             this.disablePossible = disablePossible;
             this.compilePossible = compilePossible;
+            this.canUpdateOverlays = canUpdateOverlays;
         }
 
         protected void onCreate(Bundle savedInstanceState) {
@@ -101,6 +104,9 @@ public class OmniActivity extends SubstratumActivity {
             setContentView(R.layout.sheet_dialog);
 
             compile_selected = (TextView) findViewById(R.id.compile_selected);
+            if (canUpdateOverlays) {
+                compile_selected.setText(R.string.sheet_dialog_update);
+            }
             if (!compilePossible) {
                 compile_selected.setEnabled(false);
             } else {
@@ -208,7 +214,7 @@ public class OmniActivity extends SubstratumActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         if (toolbar != null) {
-            toolbar.setTitle(theme_name);
+            toolbar.setTitle(R.string.app_name_omni);
             toolbar.setTitleTextColor(getColor(R.color.toolbar_title_text_color));
             toolbar.setPopupTheme(R.style.ActionBarPopupTheme);
         }
@@ -237,7 +243,9 @@ public class OmniActivity extends SubstratumActivity {
                     boolean disablePossible = fragment.getDisableOverlays().size() != 0;
                     boolean enablePossible = fragment.canEnableOverlays();
                     boolean compilePossible = fragment.canCompileOverlays();
-                    final FabDialog sheetDialog = new FabDialog(this, compilePossible, enablePossible, disablePossible);
+                    boolean canUpdateOverlays = fragment.canUpdateOverlays();
+                    final FabDialog sheetDialog = new FabDialog(this, compilePossible,
+                            enablePossible, disablePossible, canUpdateOverlays);
                     sheetDialog.show();
                 }
             } catch (NullPointerException npe) {

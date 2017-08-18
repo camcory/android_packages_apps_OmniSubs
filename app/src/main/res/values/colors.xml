@@ -41,7 +41,7 @@
     <color name="logcat_dialog_text">#ff0000</color>
 
     <color name="theme_information_background">#ffeeeeee</color>
-    <color name="theme_information_card_subtext">@android:color/darker_gray</color>
+    <color name="theme_information_card_subtext">#a0000000</color>
 
     <color name="settings_title_color">@color/colorAccent</color>
 
