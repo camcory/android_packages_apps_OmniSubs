@@ -209,7 +209,7 @@ public class OmniActivity extends SubstratumActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         if (toolbar != null) {
             toolbar.setTitle(theme_name);
-            toolbar.setTitleTextColor(getColor(R.color.information_activity_light_icon_mode));
+            toolbar.setTitleTextColor(getColor(R.color.toolbar_title_text_color));
             toolbar.setPopupTheme(R.style.ActionBarPopupTheme);
         }
 
