@@ -24,7 +24,8 @@ else
 support_library_root_dir := prebuilts/sdk/current/support
 endif
 
-LOCAL_STATIC_JAVA_LIBRARIES += android-support-compat \
+LOCAL_STATIC_JAVA_LIBRARIES += android-support-annotations \
+    android-support-compat \
     android-support-core-utils \
     android-support-core-ui \
     android-support-fragment \
